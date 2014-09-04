@@ -1,0 +1,16 @@
+[
+{
+  "modid": "alchemicreactions",
+  "name": "Alchemic Reactions Mod",
+  "description": "A mod that lets you preform alchemy",
+  "version": "${1.7.10-1.0}",
+  "mcversion": "${1.7.10}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["SOULTECHNAMEI"],
+  "credits": "Lead Design-SOULTECHNAMEI",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
