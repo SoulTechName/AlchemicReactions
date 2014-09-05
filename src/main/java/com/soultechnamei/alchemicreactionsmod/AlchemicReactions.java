@@ -6,6 +6,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
+import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemNameTag;
@@ -29,6 +30,13 @@ public class AlchemicReactions
     public static Item ItemEm;
     public static Item ItemPs;
     public static Item ItemSc;
+    public static Item ItemS;
+    public static Item ItemAG;
+    public static Block BlockUM;
+    public static Item ItemCB;
+
+
+
     public static CreativeTabs ARM;
 
 
@@ -60,7 +68,7 @@ public class AlchemicReactions
     public void init(FMLInitializationEvent event)
 
     {
-        ARMTab armTab = new ARMTab();
+
 
     }
 
