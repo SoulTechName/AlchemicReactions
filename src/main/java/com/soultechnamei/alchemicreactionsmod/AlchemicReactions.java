@@ -34,6 +34,7 @@ public class AlchemicReactions
     public static Item ItemAG;
     public static Block BlockUM;
     public static Item ItemCB;
+    public static Block Blocktest;
 
 
 
@@ -47,9 +48,7 @@ public class AlchemicReactions
         //Item Initialization And Registration
         ItemBCC = new ItemBCC().setCreativeTab(CreativeTabs.tabMaterials).setUnlocalizedName("ItemBCC");
         ItemBTC = new ItemBTC().setCreativeTab(CreativeTabs.tabMaterials).setUnlocalizedName("ItemBTC");
-        /*
-        ItemC = new ItemC().setCreativeTabCreativeTabs(CreativeTabs.tabMaterials).setUnlocalizedName("ItemC");
-        */
+        ItemC = new ItemC().setCreativeTab(CreativeTabs.tabMaterials).setUnlocalizedName("ItemC");
         ItemEm = new ItemEm().setCreativeTab(CreativeTabs.tabMaterials).setUnlocalizedName("ItemC");
         ItemPs = new ItemPs().setCreativeTab(CreativeTabs.tabMaterials);
         ItemSc = new ItemSc().setCreativeTab(CreativeTabs.tabMaterials).setUnlocalizedName("ItemSc");
@@ -57,7 +56,12 @@ public class AlchemicReactions
         GameRegistry.registerItem(ItemBCC,"ItemBCC");
         GameRegistry.registerItem(ItemBTC, "ItemBTC");
         GameRegistry.registerItem(ItemPs,"ItemPs");
+        GameRegistry.registerItem(ItemC,"ItemC");
 
+        //Block Initilization And Registration
+        Blocktest = new Blocktest().setCreativeTab(CreativeTabs.tabMaterials);
+
+        GameRegistry.registerBlock(Blocktest,"blocktest");
         //Creative Tab Initialization And Registration
 
     }
